@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 15px;
+  min-width: 290px;
+}
+.input{
+  height: 38px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 260px;
+  margin: 24px 0;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #b6b6b3;
+}
+.App a{
+  width: 100%;
+  max-width: 260px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: rgb(33, 33, 209);
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+.App a:hover{
+  opacity: .7;
+}
